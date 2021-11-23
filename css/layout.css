@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'rokkitt';
+  src: url('../fonts/Rokkitt-Regular.ttf');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'rokkitt';
+}
+
+.container {
+  margin-left: 260px;
+  margin-right: 260px;
+}
+
+/* NavBar */
+
+.nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-title {
+  text-align: center;
+  padding: 7vh 0;
+  font-size: 2.25rem;
+  margin: 0;
+}
+
+.page-link {
+  cursor: pointer;
+}
+
+.logo {
+  padding-left: 260px;
+}
+
+.nav ul {
+  padding-right: 260px;
+  margin: 0;
+}
+
+.nav ul li {
+  display: inline;
+  padding: 1vw;
+  font-size: 1.875rem;
+}
+
+.nav figure {
+  height: 120px;
+  width: 150px;
+  display: flex;
+  padding-left: 260px;
+}
+
+.nav figure img {
+  width: 100%;
+}
+
+
+footer {
+  background-color: black;
+  padding: 2vh 260px;
+  font-size: 1.875rem;
+  color: white;
+  text-align: end;
+}
+
+@media (max-width: 1025px) {
+  .section-title, .nav figure,
+  .nav ul {
+    padding: 0;
+  }
+
+  .nav figure,
+  .nav ul li {
+    font-size: 1.375rem;
+  }
+}
+
+@media (max-width: 420px) {
+
+  .nav figure,
+  .nav ul li {
+    padding: 0;
+  }
+
+  footer {
+    font-size: 1rem;
+    padding: 1vh 15px;
+  }
+}

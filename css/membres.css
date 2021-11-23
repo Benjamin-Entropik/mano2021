@@ -1,0 +1,64 @@
+.members {
+  background-color: #8FAA75;
+  padding: 0 260px 15vh 260px;
+}
+
+.members .section-title {
+  color: white;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.members .cards article {
+  width: 390px;
+  background-color: white;
+
+}
+
+.members .cards article figure {
+  margin: 0;
+}
+
+.members .cards article .content {
+  padding: 0 20px;
+}
+
+.btn-div {
+  text-align: right;
+  margin-bottom: 2vh;
+}
+
+.btn-div button {
+  background-color: #8FAA75;
+  border-style: none;
+  cursor: pointer;
+  color: white;
+  padding: 2vh 15px;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.btn-div button:hover {
+  background-color: #e9e9e9;
+  color: #8FAA75;
+  padding: 2vh 15px;
+  font-weight: bold;
+}
+
+@media (max-width: 1025px) {
+  .members {
+    padding: 2vh;
+  }
+
+  .cards {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .members .cards article {
+    margin: 2vh;
+  }
+}
