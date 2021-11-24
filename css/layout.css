@@ -53,6 +53,17 @@ body {
   font-size: 1.875rem;
 }
 
+.nav ul li:last-child {
+  background-color: #8FAA75;
+  color: white;
+  transition: ease 0.3s all;
+}
+
+.nav ul li:last-child:hover {
+  background-color: #e9e9e9;
+  color: #8FAA75;
+}
+
 .nav figure {
   height: 120px;
   width: 150px;
